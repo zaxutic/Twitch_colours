@@ -10,6 +10,16 @@ colours = [
     'SpringGreen', 'YellowGreen'
 ]
 
+Host = "irc.twitch.tv"
+Port = 6667
+Channel = ''
+x = 0
+
+with open("auth", "r", encoding='utf-8') as auth_file:
+    line = auth_file.readline().split()
+    Nick = line[0].lower()
+    Pass = line[1]
+    
 def current_time():
     t = datetime.now()
     return t.strftime("%y-%m-%d %H:%M:%S ")
@@ -65,16 +75,6 @@ def main():
                 x += 1
 
 if __name__ == '__main__':
-    Host = "irc.twitch.tv"
-    Port = 6667
-    Channel = ''
-    x = 0
-
-    with open("auth", "r", encoding='utf-8') as auth_file:
-        line = auth_file.readline().split()
-        Nick = line[0].lower()
-        Pass = line[1]
-
     if not Channel:
         Channel = input("Channel: ")
 
