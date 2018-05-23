@@ -4,7 +4,7 @@ Script to automatically change username colour upon sending a message
 ## Setup
 - Get an OAuth token from https://twitchapps.com/tmi/
 - Create an `auth` file in the same directory, with your username and OAuth token, separated by a space.
-- Add channel name for script to run in between quotes in line 70 **OR**  give channel name as input when running script.
+- Add channel name for script to run between quotes in line 15 **OR**  give channel name as input when running script.
 
 ## Requirements
 - Python 3.x.x
