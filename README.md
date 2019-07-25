@@ -9,7 +9,7 @@ Script to automatically change username colour upon sending a message
 
 ## Requirements
 - Python 3.6+
-- Package dependencies are in `requirements.txt`
+- Package dependencies are in `requirements.txt` (`termcolor` is optional)
 
 ## Runnings
 ### Windows
