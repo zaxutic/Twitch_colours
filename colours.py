@@ -83,5 +83,6 @@ class Bot(commands.Bot):
             json.dump(self.channels, f, indent=2)
 
 
-bot = Bot()
-bot.run()
+if __name__ == "__main__":
+    bot = Bot()
+    bot.run()
