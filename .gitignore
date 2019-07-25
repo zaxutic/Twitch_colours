@@ -1,0 +1,4 @@
+venv
+config/auth.py
+config/channels.json
+__pycache__
