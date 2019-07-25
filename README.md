@@ -1,4 +1,4 @@
-# Twitch_colours
+# Twitch Colours
 Script to automatically change username colour upon sending a message
 
 ## Setup
